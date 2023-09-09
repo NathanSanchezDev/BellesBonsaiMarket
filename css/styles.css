@@ -1,3 +1,26 @@
 html{
     background-color: rgb(165, 252, 198);
 }
+
+#icoLeft{
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+}
+#navLeft{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+#bmIcon{
+    width: 3em;
+    height: 3em;
+}
+h3{
+    display: flex;
+}
+.socialImg{
+    display: flex;
+    width: 40px;
+    height: 30px;
+}
