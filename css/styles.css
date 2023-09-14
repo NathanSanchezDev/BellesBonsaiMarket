@@ -1,26 +1,59 @@
-html{
-    background-color: rgb(165, 252, 198);
+.image-grid1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.image-grid2 {
+    display: flex;
+    justify-content: space-around;
+}
+#avabons{
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column; /* Stack logo and nav vertically */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-color: #ffffff;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 35%;
+        height: auto; /* Maintain the logo's aspect ratio */
 }
 
-#icoLeft{
-    font-size: 30px;
-    font-family: 'Kalam', cursive;
+/* Your other header styles go here */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .logo {
+width: 40%;    }
 }
-#navLeft{
+html{background-color: rgb(177, 177, 177);}
+        /* Style for the navigation links */
+/* Style for the navigation links */
+nav ul {
+    list-style-type: none;
     display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 56px;
 }
-nav{
-    display: flex;
+
+nav li {
 }
-#bmIcon{
-    width: 3em;
-    height: 3em;
-}
-h3{
-    display: flex;
-}
-.socialImg{
-    display: flex;
-    width: 40px;
-    height: 30px;
-}
+
+        nav a {
+            text-decoration: none;
+            color: inherit;
+
+        }
